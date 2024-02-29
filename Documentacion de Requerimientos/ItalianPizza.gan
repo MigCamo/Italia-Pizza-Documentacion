@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-04-17" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3303" locale="es_ES">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="200" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="75" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="75" order="2"/>
+        <field id="tpd15" name="Notas" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="211" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="d6e759829ac04102bdf96423225b1326" name="Italia Pizza System" color="#000000" meeting="false" start="2024-02-29" duration="69" complete="0" expand="true" cost-manual-value="36000.0" cost-calculated="false">
+            <task id="24" uid="e57149893d6d41e4aa7f2c1ed8a3c210" name="Primera Entrega (40% Proyecto)" color="#000000" meeting="false" start="2024-02-29" duration="27" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                <task id="25" uid="041465d03483488dbd9df4249dbb01f7" name="Diagrama de Paquetes" color="#333333" meeting="false" start="2024-02-29" duration="7" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+                <task id="26" uid="5d41cbe8f4c44018b78c9bd958f6302e" name="Diagrama de Casos de Uso" color="#333333" meeting="false" start="2024-02-29" duration="7" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+                <task id="27" uid="78a80001b5894acebc353ec2ec98c7cf" name="Modelo del Domino" color="#333333" meeting="false" start="2024-02-29" duration="7" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+                <task id="80" uid="23953a3d2ad84cf7939469222c6c24ce" name="Diagrama de clases" color="#333333" meeting="false" start="2024-02-29" duration="7" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+                <task id="28" uid="a26946e1c02047d2a0be76eb4a8b0e8a" name="Modelo Relacional" color="#333333" meeting="false" start="2024-02-29" duration="7" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+                <task id="29" uid="467d065f7a844b71a114a4ceb6ca166c" name="Diagrama de Despliegue" color="#333333" meeting="false" start="2024-02-29" duration="7" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+                <task id="81" uid="752e19d66ca94b6ba2460e66580537bd" name="CU01 Consultar Usuarios" color="#000000" meeting="false" start="2024-03-08" duration="6" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <depend id="30" type="2" difference="0" hardness="Strong"/>
+                    <task id="94" uid="0f6cf85d45294e569a55fc9b76627d1e" name="Prototipos" color="#333333" meeting="false" start="2024-03-08" duration="6" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="95" uid="978d018a15b44bb4abe28b0cc392574d" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-03-08" duration="6" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="96" uid="04f330c81b7840b183b49be2391ae36b" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-03-08" duration="6" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="97" uid="094a07b01cb54b0d9607d8642d08129f" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-03-08" duration="6" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="98" uid="3a3abf2fd525470dbda0906d22989da5" name="Codificación" color="#333333" meeting="false" start="2024-03-08" duration="6" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="99" uid="2df10bd55f764373a02c445f247a4963" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-03-08" duration="6" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="30" uid="7508c35dbee74aa9983894a51b20a39c" name="CU02 Registrar Usuarios" color="#000000" meeting="false" start="2024-03-18" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <depend id="37" type="2" difference="0" hardness="Strong"/>
+                    <task id="31" uid="645a4d2e395040c88674314b28add306" name="Prototipos" color="#333333" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="32" uid="6a2c9309e3894026a9445a728a0d9915" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="33" uid="e7c464a6f24247ebae1d580bdd47c930" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="34" uid="f0a8b6b779634a9483eb5218fd0d152d" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="35" uid="999f13db3f7745bbb0e3e3fba9f79df2" name="Codificación" color="#333333" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="36" uid="7e3ea61be0b14121bf121fbe3ed03f89" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="37" uid="8d6a27737af44024b8d058ca04b72be2" name="CU03 Modificar Usuarios" color="#000000" meeting="false" start="2024-03-25" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <depend id="82" type="2" difference="0" hardness="Strong"/>
+                    <task id="39" uid="cd93ad12d6354329a09281bcda18fbbe" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="41" uid="00b4c118dbb0434d81877b4c0fa03fba" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="42" uid="acdfbadd59c740bea244fb058947bbfe" name="Codificación" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="43" uid="6c8570c5d5f9462c8e002bb288dd4727" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="40" uid="bf697af1037745d89b451ee2e9bb7ae2" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="38" uid="e6339b8eec05491197d1dbc2ea170afd" name="Prototipos" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="82" uid="e0167de98e3b48b9803f17f4c6c431e6" name="CU04 Desactivar usuarios" color="#000000" meeting="false" start="2024-04-01" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <task id="100" uid="5c00f27576f443c0957b4b67d03e543d" name="Prototipos" color="#333333" meeting="false" start="2024-04-01" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="101" uid="9dd42f30cdff4b03bd85b3aa0c26246e" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-04-01" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="102" uid="e194bcc2137f442cb51f726c6775a800" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-04-01" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="103" uid="094015a8a7d549fc9eebbcf0410c5f5a" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-04-01" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="104" uid="f63f4de4b0634aeb8452b841ebda1697" name="Codificación" color="#333333" meeting="false" start="2024-04-01" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="105" uid="63f348c3232d4c9da8df8b2796ffed22" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-04-01" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="83" uid="d5a7a294e7084fc7a1170f9bbfdf742f" name="CU05 Consultar articulos" color="#000000" meeting="false" start="2024-03-08" duration="6" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <depend id="58" type="2" difference="0" hardness="Strong"/>
+                    <task id="106" uid="5000670fcdd54ec3a5db4ea29cba8eaa" name="Prototipos" color="#333333" meeting="false" start="2024-03-08" duration="6" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="107" uid="d5dbda4b50aa40baad098b4064e6ba12" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-03-08" duration="6" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="108" uid="d4da4d1ff9784b35931235a128a09942" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-03-08" duration="6" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="109" uid="7ac6d772aefc4c55b68181974a0fd482" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-03-08" duration="6" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="110" uid="072057d32e904512910d63a28893c606" name="Codificación" color="#333333" meeting="false" start="2024-03-08" duration="6" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="111" uid="e771ead5e5204439a888a0b5b1d0bc3b" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-03-08" duration="6" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="58" uid="79002f3eb4e1478b9f37586b583627fc" name="CU06 Registrar Articulos" color="#000000" meeting="false" start="2024-03-18" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <depend id="51" type="2" difference="0" hardness="Strong"/>
+                    <depend id="84" type="2" difference="0" hardness="Strong"/>
+                    <task id="59" uid="6bdc1f57159248c9bf9ac28c0ec9274b" name="Prototipos" color="#333333" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="60" uid="77147218ae414c719a9421ff717e899d" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="61" uid="55bd649d420b4693981a2dac01c08f8e" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="62" uid="f10b775ad1df4aef8e2e5a401cfb28c1" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="63" uid="ba54255b2bf14583836f4587521b0089" name="Codificación" color="#333333" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="64" uid="dfc8ddad52cc4e8cbef51878c18879d4" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="51" uid="97c67e3b52f346df9c0e903a72683895" name="CU07 Modificar Articulos" color="#000000" meeting="false" start="2024-03-25" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <task id="136" uid="d852cec4c2ab43988232dc62af1f365d" name="Prototipos" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="52" uid="4eeb69619a17477c9c4184eb85223f73" name="Prototipos" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="53" uid="6e555460b44049518b630f82708936b2" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="54" uid="3247a03dcfdc4319bd2a00d645410384" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="55" uid="f5022632174444a58f4c75e99df1bea0" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="56" uid="a0d5c85096d14b69b3339983ce66d607" name="Codificación" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="57" uid="fd7b632e96c044d9b19ccb3b32d4f823" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="84" uid="7ef5d794968741c38f5a40ca5b566e37" name="CU08 Desactivar Articulos" color="#000000" meeting="false" start="2024-03-25" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <task id="112" uid="64bedc1ab6784e5a9646b4862d047af0" name="Prototipos" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="113" uid="5f65eb6a19cc48ed8768b3dd11380123" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="114" uid="5ad42b65361143e28155931c9dffc3dd" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="115" uid="0d97c8de3e6f4ead9c39108d44ee8723" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="116" uid="f776f8cf39c1439f821066c126918ce5" name="Codificación" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="117" uid="724a35e54a42431bb699bb947ff48400" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="85" uid="ded8796bf4574bad916c26d23ece207e" name="CU11 Consultar Pedidos del cliente" color="#000000" meeting="false" start="2024-03-08" duration="6" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <depend id="86" type="2" difference="0" hardness="Strong"/>
+                    <task id="118" uid="9d6198faac9e4c8da8881aa5efe0d2f9" name="Prototipos" color="#333333" meeting="false" start="2024-03-08" duration="6" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="119" uid="acf2072c51284cf4a0ecb1040987cccd" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-03-08" duration="6" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="120" uid="49278a3f112340fe9c4db64b0de2f2ff" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-03-08" duration="6" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="121" uid="a9218f59637f474daf185a8e26a3945a" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-03-08" duration="6" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="122" uid="64f65f9626a14c29a3ceb7581129b4e3" name="Codificación" color="#333333" meeting="false" start="2024-03-08" duration="6" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="123" uid="83cde1e76b574bff80d3724ad3141b34" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-03-08" duration="6" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="86" uid="df4f547333054b9abdaf123d77fcb552" name="CU12 Agregar Pedido del cliente" color="#000000" meeting="false" start="2024-03-18" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <depend id="87" type="2" difference="0" hardness="Strong"/>
+                    <depend id="88" type="2" difference="0" hardness="Strong"/>
+                    <task id="124" uid="001d1a7b03d74d9489da2cbb830c53b1" name="Prototipos" color="#333333" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="125" uid="0b0367aa5c214ad5b1fe8c037a3f0ef6" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="126" uid="2e74751e56f14963b9f9f0188fa16868" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="127" uid="1e325bc3adfe457e9ad84306691e6f68" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="128" uid="08a69741c44840d3bc75072a4ca2ea5e" name="Codificación" color="#333333" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="129" uid="4a6a63495a5a4a69945e0406fafa8474" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-03-18" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="87" uid="a925d884a48545cdb6aeaff783ddd9c5" name="CU13 Modificar pedido del cliente" color="#000000" meeting="false" start="2024-03-25" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <task id="130" uid="12061dcbb57b49da93f5144a13b31dba" name="Prototipos" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="131" uid="60f9d3396d0b495fb162ad1dbc73cc1e" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="132" uid="e8e930bcf85b47b1a38eaf60feaf910f" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="133" uid="8d07747c2d494262af7896f8a64e415a" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="134" uid="7bb282acd15a478b83d9c29f31a738ec" name="Codificación" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="135" uid="e30603a6cdc546fc9986c75351724027" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="88" uid="945c9634c4c74ba3a0b4484a18ebcc1f" name="CU14 desactivar pedido del cliente" color="#000000" meeting="false" start="2024-03-25" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <task id="137" uid="adee2537ba5e41d183134e936fa90109" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="138" uid="ce13d693cc4e464db950ba4aa2581668" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="139" uid="952293a55f7748c29735181dc63405f2" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="140" uid="d8278cf4a8704e5bb92ab248344b6b5c" name="Codificación" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="141" uid="e04f6be319c041f589d65408c6614173" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-03-25" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="236" uid="2ca38733f15c4a02a3bfc34224074ac1" name="Avance de Pruebas de Integracion" meeting="false" start="2024-04-01" duration="4" complete="0" expand="true"/>
+                <task id="211" uid="b2ceb99b26224ac58720dc9845cd9e9b" name="Avance de documento de cierre del proyecto" color="#333333" meeting="false" start="2024-04-01" duration="4" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+            </task>
+            <task id="77" uid="73bc46be2bb44dbea5f204d03750e0e4" name="Segunda Entrega (90% Proyecto)" color="#000000" meeting="false" start="2024-04-08" duration="20" complete="0" expand="false" cost-manual-value="6000.0" cost-calculated="false">
+                <task id="44" uid="a47108eb6f5c4d41a456656ba0b6da3e" name="CU09 Generar Reporte de inventario" color="#000000" meeting="false" start="2024-04-08" duration="10" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <depend id="65" type="2" difference="0" hardness="Strong"/>
+                    <task id="45" uid="cf93fa32782b47b3b12f0d745c4494e9" name="Prototipos" color="#333333" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="46" uid="4d4d356df0ec4868a28a5481534d4caf" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="47" uid="1c6dc3efe3594d7aa86d4431b43739a9" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="48" uid="9b09e6d627a743678b46df434cfb06d0" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="49" uid="80a87bccdab241b29211e9d2575d0250" name="Codificación" color="#333333" meeting="false" start="2024-04-08" duration="10" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="50" uid="c47adf79983449839346094daf2cb5f9" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="65" uid="43e3c8812f7e40dc97017aa46cf09c08" name="CU10 Realizar Justificacion del Inventario" color="#000000" meeting="false" start="2024-04-22" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <task id="142" uid="ac5ea52b48dc4ee78ff90523591b42d4" name="Prototipos" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="143" uid="d543632e9d534526a3d65794de303bda" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="144" uid="35ba3cd28dee4163a8094e4d459e32e0" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="145" uid="f251841c42c9481fa12f77d848de8001" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="146" uid="3b49c1cb09f942419302e3088bb1281a" name="Codificación" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="147" uid="d2732410b56249ec8e0c196fe5d845f9" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="89" uid="19eebac69d9e45ada007f742eb92c8f2" name="CU15 Consultar Recetas de Platillos" color="#000000" meeting="false" start="2024-04-08" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <depend id="68" type="2" difference="0" hardness="Strong"/>
+                    <task id="148" uid="751c2ded6de0421293b5b983a3ff06c3" name="Prototipos" color="#333333" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="149" uid="af96575e5c924a15a31c62044443a4dc" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="150" uid="00ddfa82d9654d4c8df05a154f00ed08" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="151" uid="0ee0c64eb1194f7cb6d346f239fb1268" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="152" uid="b6a19d21ddf345abbe79f8d10cefda26" name="Codificación" color="#333333" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="153" uid="98ad793d81e048e985a643f4bd11062e" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="68" uid="6b993396fe3043159a5fac5c353c876b" name="CU16 Registrar Recetas de Platillos" color="#000000" meeting="false" start="2024-04-15" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <depend id="69" type="2" difference="0" hardness="Strong"/>
+                    <task id="154" uid="43a7445cbb09436f802a5f23865e1799" name="Prototipos" color="#333333" meeting="false" start="2024-04-15" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="155" uid="a93b107823ca49cab3b0c82653e51dac" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-04-15" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="156" uid="3092ed3f5a094f5386840180dded8be5" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-04-15" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="157" uid="ee1c397a5fe243039bc0313279ef5d77" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-04-15" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="158" uid="63d0e4a5380246728328dc581c8bf669" name="Codificación" color="#333333" meeting="false" start="2024-04-15" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="159" uid="440fa23d1e4d48cbb1ffd0d618a18312" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-04-15" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="69" uid="7b815acccbba4752bbfe9497cdca92ac" name="CU17 Modificar Recetas de Platillos" color="#000000" meeting="false" start="2024-04-22" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <depend id="90" type="2" difference="0" hardness="Strong"/>
+                    <task id="160" uid="98d1b24ed72c4d2dbc500d5a5ab6deec" name="Prototipos" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="161" uid="a87bc44344eb4d9ba080445e42e5d49c" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="162" uid="f42ab20e8b0746ad9a28b768c40aec57" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="163" uid="d66bb933bdcb44b4beef9ff70125ab11" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="164" uid="8ea9f38493b14f458268fc624ad749ea" name="Codificación" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="165" uid="0a8a8628516d438b8f858882c3abd502" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="90" uid="cfa6c445b62f4d77a8b5475aa006980e" name="CU18 Desactivar Recetas de Platillos" color="#000000" meeting="false" start="2024-04-29" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <task id="166" uid="daee291b8bb148f381b9fecf04d67b2f" name="Prototipos" color="#333333" meeting="false" start="2024-04-29" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="167" uid="a7720627a69d49c6b2782397eb18ff17" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-04-29" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="168" uid="9ffc64b1e8fb4f9f8f84e337f1baeb2f" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-04-29" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="169" uid="1c65a4cc23e4423585d9d6beabfa8cd5" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-04-29" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="170" uid="2f60e474ad2742449dcb3781325bd8a6" name="Codificación" color="#333333" meeting="false" start="2024-04-29" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="171" uid="09c65b3d07a8453a85438eec332ea956" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-04-29" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="73" uid="0971596967034eb1a659ffb6b9b6aec9" name="CU23 Consultar Proveedores" color="#000000" meeting="false" start="2024-04-08" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <depend id="91" type="2" difference="0" hardness="Strong"/>
+                    <task id="172" uid="8f285b3bcab640e7a540075197457439" name="Prototipos" color="#333333" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="173" uid="a299d4b085df4843b99eaaa650b47051" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="174" uid="9d8c1925e2d442279c850ce66b3b59ec" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="175" uid="f90cf8a845a2462e93e1ba5903e58a46" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="176" uid="bbfe90edd5bf425eb2aeffe1b673d290" name="Codificación" color="#333333" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="177" uid="c7b6d81303054f85bda4c686dde81c73" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-04-08" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="91" uid="714196f403b44b2786dbe24c2eaa3d06" name="CU24 Registrar Proveedores" color="#000000" meeting="false" start="2024-04-15" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <depend id="74" type="2" difference="0" hardness="Strong"/>
+                    <depend id="92" type="2" difference="0" hardness="Strong"/>
+                    <task id="178" uid="d7c9def188c3428682dd617ba73653f1" name="Prototipos" color="#333333" meeting="false" start="2024-04-15" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="179" uid="d9dd2cab9c31449fac6c235adfe7fce0" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-04-15" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="180" uid="787f6b09fa344f71b110a8286d04c2e4" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-04-15" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="181" uid="3b9786ec5fb74b5a818fe706f84d31b1" name="Copiar_Diagrama de secuencia" color="#333333" meeting="false" start="2024-04-15" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="182" uid="7d493864da244052a3858c124642b79e" name="Copiar_Codificación" color="#333333" meeting="false" start="2024-04-15" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="183" uid="c05191451ac34fbfb50f1feed7ebaa76" name="Copiar_Pruebas Unitarias" color="#333333" meeting="false" start="2024-04-15" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="74" uid="8bf0d9e62f9e462e8589c4bd5ad7973c" name="CU25 Modificar Detalles de Proveedores" color="#000000" meeting="false" start="2024-04-22" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <task id="184" uid="f56ac253dc54440fab367b801671af02" name="Prototipos" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="185" uid="56807e13968449629adc722ea32e70de" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="186" uid="c5dcaa299fd64a48a0c04e9f13081325" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="187" uid="2a3731c3b72e402a897df2493f54e974" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="188" uid="d52fe4608e6a4b93ae4c4da5961edb34" name="Codificación" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="189" uid="71ed5f9fea8f42f285551136f2fb763c" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="92" uid="25cd3ea87c69471cadcd4e5d4f767356" name="CU26 Desactivar Proveedores" color="#000000" meeting="false" start="2024-04-22" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <task id="190" uid="9239ccede5234e528a406f141b363ba7" name="Prototipos" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="191" uid="f615b7c2c5174fdfb2de25e8eb762b43" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="192" uid="52bcd15ce74a4654b6575106333b2111" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="193" uid="d9fc734edb2d4e93a93fe0dae01016ce" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="194" uid="99df66c9b4ec40ffa9ab3f022ebfc7bc" name="Codificación" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="195" uid="027a396b27cb4256945a7aa5c883835f" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-04-22" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="196" uid="29ff030c87cc465c8319f024dc419857" name="Avance de Pruebas de Integración" color="#333333" meeting="false" start="2024-04-29" duration="5" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+                <task id="197" uid="dc2b0920aac343429b05270d70b95511" name="Avance de documento de cierre del proyecto" color="#333333" meeting="false" start="2024-04-29" duration="5" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+            </task>
+            <task id="78" uid="7ce673f1f5544dbca8ac23ae24903ec1" name="Tercera Entrega (100% Proyecto)" color="#000000" meeting="false" start="2024-05-06" duration="22" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false">
+                <task id="202" uid="d25783b9169d4afd96224dca29c9d032" name="CU19 Registrar Pago de Pedido del Cliente" color="#000000" meeting="false" start="2024-05-06" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <depend id="203" type="2" difference="0" hardness="Strong"/>
+                    <task id="212" uid="a6d2b3a95130460ca269fbffb0023de8" name="Prototipos" color="#333333" meeting="false" start="2024-05-06" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="213" uid="f18cb5eb59b64586aa88c499898295d4" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-05-06" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="214" uid="066bf8ab89d9487589a4ff9551113391" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-05-06" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="215" uid="64c04597581c4a249607df81f3135a87" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-05-06" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="216" uid="d7515b48221a45928183e084456380ac" name="Codificación" color="#333333" meeting="false" start="2024-05-06" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="217" uid="b577481970614e0680a4b4666cbe713c" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-05-06" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="203" uid="13ef2a2d9bb34eebaa3aad12f546343d" name="CU20 Registrar Salidas de Dinero" color="#000000" meeting="false" start="2024-05-13" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <task id="218" uid="5471ae93aa35405d8c9ff4e89e6bf084" name="Prototipos" color="#333333" meeting="false" start="2024-05-13" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="219" uid="75f87761a13c4956aa3b210a5a3e32ba" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-05-13" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="220" uid="a5c61ef45e5843ab8666f80ea8c01e29" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-05-13" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="221" uid="19828687ed5a4fa69b5b27f1e5753fe8" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-05-13" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="222" uid="7d3c1e3d090a4fb29c423f668304c0c0" name="Codificación" color="#333333" meeting="false" start="2024-05-13" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="223" uid="15c38cbd84694f57a4d376d5436a584d" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-05-13" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="204" uid="39bb9092dd0d44ae9de5129b7a8a0409" name="CU21 Realizar Balance Diario" color="#000000" meeting="false" start="2024-05-13" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <depend id="205" type="2" difference="0" hardness="Strong"/>
+                    <task id="224" uid="ec84663ee1c3475fa90c254ee060719b" name="Prototipos" color="#333333" meeting="false" start="2024-05-13" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="225" uid="a5777b77e3f44f438e74d6da6b81597e" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-05-13" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="226" uid="5428a7fe46f84feb8660828d9d6c8b45" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-05-13" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="227" uid="5fbce2d41db74fdf86f9aeccc5981229" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-05-13" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="228" uid="672a9e6b061b4a1f94f9e9cd48f2a805" name="Codificación" color="#333333" meeting="false" start="2024-05-13" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="229" uid="748ae59de7ab46cb8f1d7872e6a924df" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-05-13" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="205" uid="e8581268d60448f5a16426d0b04d1cbb" name="CU22 Realizar Justificación de Balance Diario" color="#000000" meeting="false" start="2024-05-20" duration="5" complete="0" expand="false" cost-manual-value="36000.0" cost-calculated="false">
+                    <task id="230" uid="fc18b226e3524cffb6984af4a6a31a40" name="Prototipos" color="#333333" meeting="false" start="2024-05-20" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="231" uid="7e45af2593284359ba42c45e9b86b56f" name="Descripcion de Caso de uso" color="#333333" meeting="false" start="2024-05-20" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="232" uid="c82f9d37412f44d4b2cbd5352026a07b" name="Diagrama de robustez" color="#333333" meeting="false" start="2024-05-20" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="233" uid="44478f11aca64c2c8cb142f32bf39ae0" name="Diagrama de secuencia" color="#333333" meeting="false" start="2024-05-20" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="234" uid="61061f65553e42419ac22800a000534d" name="Codificación" color="#333333" meeting="false" start="2024-05-20" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                    <task id="235" uid="1b2d24b50ede4169a42158342dc36fd1" name="Pruebas Unitarias" color="#333333" meeting="false" start="2024-05-20" duration="5" complete="0" expand="true" cost-manual-value="6000.0" cost-calculated="false"/>
+                </task>
+                <task id="207" uid="7570169de9634755aeea7fef807c4e63" name="Avance de Pruebas integración" color="#333333" meeting="false" start="2024-05-20" duration="8" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+                <task id="206" uid="37a6ac3e1b1f42a1a405ccebc52eef0f" name="Avance del Documento de Cierre del Proyecto" color="#333333" meeting="false" start="2024-05-28" duration="6" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="false"/>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="3" name="Miguel Angel Camo Rincon" function="Default:1" contacts="Camomiguel1@gmail.com" phone="2731010078">
+            <rate name="standard" value="1000.0"/>
+        </resource>
+        <resource id="4" name="Alvaro Vazquez Aguirre" function="Default:1" contacts="" phone="">
+            <rate name="standard" value="1000.0"/>
+        </resource>
+        <resource id="5" name="Luis Alonso Andrade Lopez" function="Default:1" contacts="" phone="">
+            <rate name="standard" value="1000.0"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="118" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="119" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="120" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="121" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="122" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="123" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="124" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="125" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="126" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="127" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="128" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="129" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="130" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="131" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="132" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="133" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="134" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="135" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="88" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="136" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="137" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="138" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="139" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="140" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="141" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="172" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="173" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="174" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="175" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="176" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="177" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="178" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="179" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="180" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="181" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="182" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="183" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="184" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="185" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="186" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="187" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="188" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="189" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="190" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="191" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="192" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="193" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="194" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="195" resource-id="3" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="25" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="27" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="80" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="85" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="86" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="87" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="73" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="91" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="74" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="92" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="196" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="197" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="207" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="206" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="94" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="95" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="96" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="97" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="98" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="99" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="31" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="32" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="33" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="34" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="35" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="36" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="39" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="41" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="42" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="43" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="40" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="38" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="100" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="101" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="102" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="103" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="104" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="105" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="148" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="149" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="150" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="151" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="152" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="153" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="154" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="155" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="156" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="157" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="158" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="159" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="160" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="161" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="162" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="163" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="164" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="165" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="166" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="167" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="168" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="169" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="170" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="171" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="224" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="225" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="226" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="227" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="228" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="229" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="230" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="231" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="232" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="233" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="234" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="235" resource-id="4" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="25" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="27" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="80" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="81" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="30" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="82" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="89" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="68" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="69" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="90" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="196" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="197" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="202" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="203" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="207" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="206" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="106" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="107" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="108" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="109" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="110" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="111" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="59" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="60" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="61" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="62" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="63" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="64" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="52" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="53" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="54" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="55" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="56" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="57" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="112" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="113" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="114" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="115" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="116" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="117" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="45" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="46" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="47" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="48" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="49" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="50" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="142" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="143" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="144" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="145" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="146" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="147" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="212" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="213" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="214" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="215" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="216" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="217" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="218" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="219" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="220" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="221" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="222" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="223" resource-id="5" function="Default:1" responsible="true" load="0.0"/>
+        <allocation task-id="25" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="27" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="80" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="83" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="58" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="51" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="84" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="65" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="196" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="197" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="204" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="205" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="207" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="206" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
